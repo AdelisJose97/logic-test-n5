@@ -8,7 +8,7 @@ function reverseString(word) {
     } else if (!regex.test(arr[right])) {
       right--
     } else {
-      ;[arr[left], arr[right]] = [arr[right], arr[left]]
+      [arr[left], arr[right]] = [arr[right], arr[left]]
       left++
       right--
     }
